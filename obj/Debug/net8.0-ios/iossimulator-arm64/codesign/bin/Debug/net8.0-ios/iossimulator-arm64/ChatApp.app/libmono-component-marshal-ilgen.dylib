@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/jerrykingsbury/Projects/DotNET/ChatApp/bin/Debug/net8.0-ios/iossimulator-arm64/ChatApp.app/libmono-component-marshal-ilgen.dylib

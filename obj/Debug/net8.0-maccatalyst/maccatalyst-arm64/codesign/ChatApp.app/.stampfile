@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/jerrykingsbury/Projects/DotNET/ChatApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/jerrykingsbury/Projects/DotNET/ChatApp/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/ChatApp.app

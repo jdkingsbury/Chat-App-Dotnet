@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fontAwesome="clr-namespace:ChatApp.Helpers"
+             x:vm="clr-namespace:ChatApp.ViewModels"
+             x:Class="ChatApp.MessagesPage"
+             Title="MessagesPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New Message">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource 
+                    FontFamily="FontAwesomeRegular"
+                    Glyph="{x:Static fontAwesome:FontAwesomeIcons.PenToSquare}"
+                    Color="Black"
+                    Size="20"/>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding Messages}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnDefinitions="Auto,*, Auto">
+                        <Frame WidthRequest="50" HeightRequest="50" CornerRadius="25" Padding="0" HorizontalOptions="Center" VerticalOptions="Center" IsClippedToBounds="True">
+                            <Image Source="{Binding ProfileImageUrl}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" />
+                        </Frame>
+                        <StackLayout Grid.Column="1" Orientation="Vertical" Padding="10">
+                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Medium" />
+                            <Label Text="{Binding LastMessage}" FontAttributes="Italic" />
+                        </StackLayout>
+                        <Label Grid.Column="2" Text="{Binding MessageTime, StringFormat='{0:MM/dd/yyyy}'}" HorizontalOptions="End" VerticalOptions="Center" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+</ContentPage>
