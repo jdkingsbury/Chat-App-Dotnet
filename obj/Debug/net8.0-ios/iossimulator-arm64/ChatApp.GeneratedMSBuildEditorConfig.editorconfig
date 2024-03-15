@@ -12,35 +12,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatApp
-build_property.ProjectDir = /Users/jerrykingsbury/Projects/DotNET/ChatApp/
+build_property.ProjectDir = /Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/jerrykingsbury/Projects/DotNET/ChatApp/App.xaml]
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/jerrykingsbury/Projects/DotNET/ChatApp/AppShell.xaml]
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/jerrykingsbury/Projects/DotNET/ChatApp/Resources/Styles/Colors.xaml]
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/jerrykingsbury/Projects/DotNET/ChatApp/Resources/Styles/Styles.xaml]
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
-[/Users/jerrykingsbury/Projects/DotNET/ChatApp/Views/MessagesPage.xaml]
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/Views/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.Views.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/ChatPage.xaml
+
+[/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/Views/MessagesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ChatApp.Views.MessagesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/MessagesPage.xaml

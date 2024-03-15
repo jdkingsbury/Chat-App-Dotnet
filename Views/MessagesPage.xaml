@@ -15,6 +15,9 @@
                     Color="Black"
                     Size="20"/>
             </ToolbarItem.IconImageSource>
+            <ToolbarItem.Command>
+                <Binding Path="GoToChatPageCommand" />
+            </ToolbarItem.Command>
         </ToolbarItem>
     </ContentPage.ToolbarItems>
 

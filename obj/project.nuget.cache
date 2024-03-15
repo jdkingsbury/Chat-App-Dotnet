@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xoz6VQ1D4GuMN/CdF0KaEYEpGwU8wPPC4ygVizzq5Ij57/Tylvzq3k5ckaXIHCgtYgUj/0QZLhStdrOE1UTzfQ==",
+  "dgSpecHash": "MpOFmB+56Oi3t4ieRa7i0kJEutOEI7eGNTD2oYHFXEHA1Nhw2gQzTrRKcC/w8kQZoJkgU2MeAho0G7S9cdOoqA==",
   "success": true,
-  "projectFilePath": "/Users/jerrykingsbury/Projects/DotNET/ChatApp/ChatApp.csproj",
+  "projectFilePath": "/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/ChatApp.csproj",
   "expectedPackageFiles": [
     "/Users/jerrykingsbury/.nuget/packages/communitytoolkit.mvvm/8.2.2/communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "/Users/jerrykingsbury/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",

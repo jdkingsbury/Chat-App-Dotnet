@@ -7,12 +7,16 @@
     Shell.FlyoutBehavior="Disabled"
     Title="ChatApp">
 
-    <TabBar>
-        <ShellContent 
-            Title="Messages"
-            ContentTemplate="{DataTemplate local:MessagesPage}"
-            Route="MessagesPage" />
-    </TabBar>
+    <ShellContent 
+        Title="Messages"
+        ContentTemplate="{DataTemplate local:MessagesPage}"
+        Route="MessagesPage" />
+
+    <ShellContent
+        Title="Chat"
+        ContentTemplate="{DataTemplate local:ChatPage}"
+        Route="ChatPage" />
+        
 
     <!-- <ShellContent -->
     <!--     Title="Home" -->

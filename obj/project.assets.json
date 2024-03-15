@@ -25026,11 +25026,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jerrykingsbury/Projects/DotNET/ChatApp/ChatApp.csproj",
+      "projectUniqueName": "/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/ChatApp.csproj",
       "projectName": "ChatApp",
-      "projectPath": "/Users/jerrykingsbury/Projects/DotNET/ChatApp/ChatApp.csproj",
+      "projectPath": "/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/ChatApp.csproj",
       "packagesPath": "/Users/jerrykingsbury/.nuget/packages/",
-      "outputPath": "/Users/jerrykingsbury/Projects/DotNET/ChatApp/obj/",
+      "outputPath": "/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

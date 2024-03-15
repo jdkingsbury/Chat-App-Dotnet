@@ -1,12 +1,13 @@
 using ChatApp.ViewModels;
 
-namespace ChatApp;
-
-public partial class MessagesPage : ContentPage
+namespace ChatApp
 {
-    public MessagesPage()
+    public partial class MessagesPage : ContentPage
     {
-        InitializeComponent();
-        BindingContext = new MessagesViewModel();
+        public MessagesPage()
+        {
+            InitializeComponent();
+            BindingContext = new MessagesViewModel();
+        }
     }
 }
