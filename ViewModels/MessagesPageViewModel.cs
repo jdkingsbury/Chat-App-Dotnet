@@ -2,6 +2,8 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
 
+using ChatApp.Models;
+
 namespace ChatApp.ViewModels
 {
     public partial class MessagesViewModel : ObservableObject

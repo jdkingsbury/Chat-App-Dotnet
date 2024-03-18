@@ -1,3 +1,5 @@
+using ChatApp.ViewModels;
+
 namespace ChatApp
 {
     public partial class ChatPage : ContentPage
@@ -5,6 +7,7 @@ namespace ChatApp
         public ChatPage()
         {
             InitializeComponent();
+            BindingContext = new ChatPageViewModel();
         }
     }
 }

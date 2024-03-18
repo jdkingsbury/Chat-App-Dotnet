@@ -6,9 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/jerrykingsbury/Projects/DotNET/ChatApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/bundle/Assets.car</string>
-			<string>/Users/jerrykingsbury/Projects/DotNET/ChatApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/bundle/appicon.icns</string>
-			<string>/Users/jerrykingsbury/Projects/DotNET/ChatApp/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/partial-info.plist</string>
+			<string>/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/bundle/Assets.car</string>
+			<string>/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/bundle/appicon.icns</string>
+			<string>/Users/jerrykingsbury/Projects/DotNET/Chat-App-Dotnet/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>
