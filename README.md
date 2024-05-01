@@ -1,3 +1,3 @@
 # Chat-App-Dotnet
 
-Chat App that I am working on to learn Dotnet and C#
+The project's goal is to build a Chat App to learn C# and how to build applications in Dotnet.
