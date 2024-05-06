@@ -7,7 +7,7 @@
              x:Class="ChatApp.ChatPage"
              Title="ChatPage">
 
-    <VerticalStackLayout Spacing="10">
+    <VerticalStackLayout Spacing="10" Padding="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <!-- NOTE: Need to fix bug that is causing the app to crash when navigating to this page. -->
 
         <!-- <CollectionView x:Name="chatCollectionView" ItemsSource="{Binding Messages}"> -->
@@ -27,12 +27,26 @@
         <!--     </CollectionView.ItemTemplate> -->
         <!-- </CollectionView> -->
 
-        <StackLayout Orientation="Horizontal" Spacing="10">
-            <Frame CornerRadius="30" Padding="5" HorizontalOptions="FillAndExpand" BorderColor="LightGray">
-                <Entry x:Name="messageEntry" Placeholder="Type a message..." HorizontalOptions="FillAndExpand" />
-            </Frame>
-            <Button Text="Send" IsVisible="{Binding Text, Source={x:Reference messageEntry}, Converter={StaticResource TextToVisibilityConverter}}" />
-        </StackLayout>
+        <Frame CornerRadius="20" HorizontalOptions="FillAndExpand" VerticalOptions="End" BackgroundColor="Transparent" Padding="0">
+            <Entry x:Name="messageEntry" 
+                Placeholder="Message..." 
+                Text="{Binding MessageText}" 
+                BackgroundColor="Transparent" 
+                Margin="12,0,48,0" 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="Center" 
+            />
+        </Frame>
+        <Button 
+            Text="Send" 
+            IsVisible="{Binding Text, Source={x:Reference messageEntry}, Converter={StaticResource TextToVisibilityConverter}}" 
+            BackgroundColor="Gray" 
+            TextColor="White" 
+            WidthRequest="60" 
+            HeightRequest="40" 
+            CornerRadius="20" 
+            Margin="0,0,10,0"
+        />
     </VerticalStackLayout>
 
     
