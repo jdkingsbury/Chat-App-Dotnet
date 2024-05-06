@@ -28,8 +28,10 @@
         <!-- </CollectionView> -->
 
         <StackLayout Orientation="Horizontal" Spacing="10">
-            <Entry x:Name="messageEntry" Placeholder="Message..." HorizontalOptions="FillAndExpand" />
-            <Button Text="Send" />
+            <Frame CornerRadius="30" Padding="5" HorizontalOptions="FillAndExpand" BorderColor="LightGray">
+                <Entry x:Name="messageEntry" Placeholder="Type a message..." HorizontalOptions="FillAndExpand" />
+            </Frame>
+            <Button Text="Send" IsVisible="{Binding Text, Source={x:Reference messageEntry}, Converter={StaticResource TextToVisibilityConverter}}" />
         </StackLayout>
     </VerticalStackLayout>
 
